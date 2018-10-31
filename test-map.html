@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/myStyle.css">
+</head>
+<body>
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+
+  <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa8492c35c88c6a97029b7e98607296d686b6552da06e61466393e768121e6265&amp;width=100%25&amp;height=503&amp;lang=ru_RU&amp;scroll=true"></script>
+  <script>
+        ymaps.ready(function () {
+        var myMap = new ymaps.Map("map", {
+            center: [55.044019, 60.108538],
+            zoom: 8
+        });
+        var myPlacemark = new ymaps.Placemark([55.161784, 60.072833], {
+            hintContent: 'Текст всплывающей подсказки',
+            locationUrl: 'http://yandex.ru'
+        });
+
+        myMap.geoObjects.add(myPlacemark);
+
+        myMap.geoObjects.events.add('click', function (e) {
+            // Объект на котором произошло событие
+            var target = e.get('target');
+
+            window.location.href = target.properties.get('locationUrl');
+        });
+      });
+  </script>
+</body>
+</html>

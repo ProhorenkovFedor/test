@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div id="map" style="width: 100%; height: 600px"></div>
+  <a href="index.html">perehod</a>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="http://api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU" type="text/javascript"></script>
+  <script>
+        ymaps.ready(function () {
+        var myMap = new ymaps.Map("map", {
+            center: [45.292348, 34.131911],
+            zoom: 7
+        });
+        var simfPlacemark = new ymaps.Placemark([44.948237, 34.100318], {
+            hintContent: 'Текст всплывающей подсказки',
+            locationUrl: 'file:///C:/Users/Master/Desktop/avto-bootstrap/index.html'
+        });
+        var sevPlacemark = new ymaps.Placemark([44.616841, 33.525495], {
+            hintContent: 'Текст всплывающей подсказки',
+            locationUrl: 'file:///C:/Users/Master/Desktop/avto-bootstrap/test_city_page.html'
+        });
+
+        myMap.geoObjects.add(simfPlacemark);
+        myMap.geoObjects.add(sevPlacemark);
+
+        myMap.geoObjects.events.add('click', function (e) {
+            // Объект на котором произошло событие
+            var target = e.get('target');
+            window.open(target.properties.get('locationUrl'), '_blank');
+            //window.location.href = target.properties.get('locationUrl');
+        });
+      });
+  </script>
+</body>
+</html>

@@ -1,0 +1,335 @@
+
+@media (min-width:767px){
+
+}
+@media (min-width:768px){
+  header.masthead .intro-text .intro-lead-in{
+    font-family: Roboto Slab;
+    font-style: normal;
+  }
+
+}
+@media (min-width:992px){
+  header.masthead .intro-text .intro-lead-in{
+    font-family: Roboto Slab;
+    font-style: normal;
+  }
+}
+
+@media (max-width:1440px){
+ #portfolio .portfolio-title{
+   font-size: 35px;
+ }
+}
+@media (max-width:1200px){
+ #portfolio .portfolio-title{
+   font-size: 28px;
+ }
+}
+@media (max-width:1024px){
+ #portfolio .portfolio-title{
+   font-size: 24px;
+ }
+ #mainNav .navbar-nav .nav-item .nav-link{
+   font-size: 85%;
+ }
+}
+@media (max-width:768px){
+ #portfolio .portfolio-title{
+   font-size: 22px;
+ }
+ .city-list-left ul{
+   font-size: 36px;
+    margin-left: 40px;
+ }
+ .city-list-right ul{
+   font-size: 36px;
+   margin-left: 50px;
+ }
+}
+@media (max-width:320px){
+ #portfolio .portfolio-title{
+   font-size: 18px;
+ }
+
+}
+@media (max-width:823px){
+  .city-list-right ul {
+    margin-left: 45px;
+    font-size: 25px;
+  }
+  .timeline:before{
+    height: 1170px;
+  }
+}
+@media (max-width:812px){
+  .timeline:before{
+    height: 1175px;
+  }
+  .city-list-left ul {
+    margin-left: 85px;
+    font-size: 25px;
+  }
+  .city-list-right ul {
+    margin-left: 50px;
+    font-size: 25px;
+  }
+}
+@media (max-width:736px){
+  .timeline:before{
+    height: 700px;
+  }
+  .city-list-left ul {
+    margin-left: 15px;
+    font-size: 25px;
+  }
+  .city-list-right ul {
+    margin-left: 60px;
+    font-size: 25px;
+  }
+}
+@media (max-width:667px){
+  .timeline:before{
+    height: 700px;
+  }
+  .city-list-right ul {
+    margin-left: 45px;
+  }
+}
+@media (max-width:640px){
+  .timeline:before{
+    height: 755px;
+  }
+}
+@media (max-width:568px){
+  .timeline:before{
+    height: 670px;
+  }
+  .assist_right img{
+    margin-left: 87px;
+  }
+  .city-list-left ul {
+    margin-left: 130px;
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  .city-list-right ul {
+    margin-left: 130px;
+    font-size: 30px;
+  }
+}
+@media (max-width:414px){
+  nav .navbar-brand{
+    font-size: 17px;
+  }
+  #mainNav .navbar-toggler{
+    font-size: 10px;
+  }
+  .block_about h2{
+    font-size: 27px;
+  }
+  .block_about ul li{
+    font-size: 16px;
+  }
+  .our_left img{
+    width: 351px;
+    height: 197px;
+    margin-left: 10px;
+  }
+  #about-us{
+    padding: 100px 0;
+  }
+  #number_block{
+    padding: 100px 0;
+  }
+  #services{
+    padding: 100px 0;
+  }
+  section h2.section-heading{
+    font-size: 28px;
+  }
+  #services p{
+    font-size: 17px;
+  }
+  .warning h2{
+    font-size: 30px;
+  }
+  .warning ul{
+    margin-left: 0;
+  }
+  .warning ul li{
+    font-size: 26px;
+  }
+  header.masthead .intro-text .intro-heading{
+    font-size: 36px;
+  }
+  .assist_right img{
+    width: 340px;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  .assist_left h3{
+    font-size: 30px;
+  }
+  .timeline:before{
+    height: 900px;
+  }
+  .intro-heading span{
+    font-size: 25px;
+  }
+  #portfolio .portfolio-title{
+    font-size: 26px;
+  }
+  .city-list-left ul {
+    margin-left: 70px;
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+  .city-list-right ul {
+    margin-left: 70px;
+    font-size: 25px;
+  }
+}
+@media (max-width:375px) {
+  nav .navbar-brand{
+    font-size: 17px;
+  }
+  #mainNav .navbar-toggler{
+    font-size: 10px;
+  }
+  .block_about h2{
+    font-size: 27px;
+  }
+  .block_about ul li{
+    font-size: 16px;
+  }
+  .our_left img{
+    width: 351px;
+    height: 197px;
+    margin-left: -15px;
+  }
+  #about-us{
+    padding: 100px 0;
+  }
+  #number_block{
+    padding: 100px 0;
+  }
+  #services{
+    padding: 100px 0;
+  }
+  section h2.section-heading{
+    font-size: 28px;
+  }
+  #services p{
+    font-size: 17px;
+  }
+  .warning h2{
+    font-size: 30px;
+  }
+  .warning ul{
+    margin-left: 0;
+  }
+  .warning ul li{
+    font-size: 26px;
+  }
+  header.masthead .intro-text .intro-heading{
+    font-size: 36px;
+  }
+  .assist_right img{
+    width: 305px;
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  .assist_left h3{
+    font-size: 30px;
+  }
+  .timeline:before{
+    height: 1000px;
+  }
+  .intro-heading span{
+    font-size: 32px;
+  }
+  #portfolio .portfolio-title{
+    font-size: 22px;
+  }
+  .city-list-left ul {
+    font-size: 30px;
+    margin-left: 30px;
+    margin-bottom: 0;
+ }
+ .city-list-right ul {
+   font-size: 30px;
+   margin-left: 30px;
+   margin-bottom: 0;
+}
+.city-list-left ul {
+   font-size: 25px;
+   margin-left: 50px;
+}
+.city-list-right ul {
+   font-size: 25px;
+   margin-left: 50px;
+}
+}
+@media (max-width:360px){
+  .timeline:before{
+    height: 1190px;
+  }
+}
+
+@media (max-width:320px) {
+  nav .navbar-brand{
+    font-size: 14px;
+  }
+  header.masthead .intro-text .intro-heading{
+    font-size: 34px;
+  }
+  .our_left img{
+    width: 319px;
+    height: 192px;
+    margin-left: -15px;
+  }
+  .our_right h3{
+    font-size: 32px;
+  }
+  #number_block h2{
+    font-size: 28px;
+  }
+  .warning ul li{
+    font-size: 24px;
+  }
+  #portfolio{
+    padding: 100px 0;
+  }
+  .assist_right img{
+    margin-left: -1px;
+  }
+  #to_namber{
+    margin-left: -22px;
+  }
+  .text-muted{
+    font-size: 14px;
+  }
+  .block_about h2{
+    font-size: 24px;
+  }
+  .intro-heading span{
+    font-size: 30px;
+  }
+  .services .serv_namb{
+     font-size: 22px;
+   }
+  .city-list-left ul {
+    font-size: 22px;
+    margin-left: 35px;
+  }
+  .city-list-right ul {
+    font-size: 22px;
+    margin-left: 35px;
+  }
+  #toTop{
+    width: 70px;
+    height: 70px;
+    background: url("../img/top-media.png") no-repeat 20%;
+  }
+}
